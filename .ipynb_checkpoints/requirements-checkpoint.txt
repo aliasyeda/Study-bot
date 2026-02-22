@@ -1,0 +1,10 @@
+fastapi==0.115.12
+uvicorn==0.34.0
+pymongo==4.11.3
+python-dotenv==1.0.1
+langchain==0.3.21
+langchain-groq==0.2.4
+groq==0.18.0
+pydantic==2.12.5
+pydantic-settings==2.13.1
+python-multipart==0.0.20
