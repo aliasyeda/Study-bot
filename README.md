@@ -192,8 +192,8 @@ response = requests.post(
 
 print(response.json()["response"])
 Example Questions
-
-StudyBot can be tested with questions such as:
+---
+## StudyBot can be tested with questions such as:
 
 What is the theory of relativity?
 Explain how photosynthesis works.
@@ -233,7 +233,9 @@ The API will be available locally through the configured FastAPI server.
 FastAPI's interactive API documentation can be accessed through:
 
 /docs
-Deployment
+
+---
+## Deployment
 
 The application is deployed on:
 
@@ -244,8 +246,9 @@ Live API:
 https://study-bot-aliasyeda-duva.onrender.com
 
 Environment-specific credentials such as API keys and database connection strings are configured through deployment environment variables rather than stored in the source code.
+---
 
-Deployment Challenges
+## Deployment Challenges
 
 During deployment and testing, several practical issues were addressed, including:
 
@@ -257,6 +260,8 @@ Port binding
 Cloud deployment configuration
 
 These issues provided practical experience with deploying and debugging an AI-backed API application.
+
+---
 
 ## Project Highlights
 
@@ -273,6 +278,8 @@ Backend development with FastAPI
 Cloud deployment
 API testing and debugging
 Future Improvements
+
+---
 
 ## Potential future improvements include:
 
