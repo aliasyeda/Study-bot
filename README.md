@@ -50,7 +50,7 @@ The application demonstrates the integration of:
 
 ## Architecture
 
-```text
+
 User
   │
   ▼
@@ -103,6 +103,8 @@ The user message and assistant response are stored in MongoDB.
 Database indexes on session_id and timestamp support efficient retrieval.
 
 This allows the assistant to maintain context across interactions instead of treating every question as an isolated request.
+
+---
 
 ## Database Structure
 
